@@ -13,6 +13,7 @@
 		1406AB5024327E9F00D1FFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1406AB4E24327E9F00D1FFFF /* Main.storyboard */; };
 		1406AB5224327EA400D1FFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1406AB5124327EA400D1FFFF /* Assets.xcassets */; };
 		1406AB5524327EA400D1FFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1406AB5324327EA400D1FFFF /* LaunchScreen.storyboard */; };
+		1406AB5D24327EF700D1FFFF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1406AB5C24327EF600D1FFFF /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1406AB5124327EA400D1FFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1406AB5424327EA400D1FFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1406AB5624327EA400D1FFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1406AB5C24327EF600D1FFFF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1406AB5124327EA400D1FFFF /* Assets.xcassets */,
 				1406AB5324327EA400D1FFFF /* LaunchScreen.storyboard */,
 				1406AB5624327EA400D1FFFF /* Info.plist */,
+				1406AB5C24327EF600D1FFFF /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1406AB4D24327E9F00D1FFFF /* ViewController.swift in Sources */,
+				1406AB5D24327EF700D1FFFF /* Inceptionv3.mlmodel in Sources */,
 				1406AB4924327E9F00D1FFFF /* AppDelegate.swift in Sources */,
 				1406AB4B24327E9F00D1FFFF /* SceneDelegate.swift in Sources */,
 			);
